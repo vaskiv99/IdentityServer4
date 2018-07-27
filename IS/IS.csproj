@@ -12,7 +12,14 @@
     <PackageReference Include="identityserver4" Version="2.2.0" />
     <PackageReference Include="IdentityServer4.AspNetIdentity" Version="2.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="nlog.extensions.logging" Version="1.2.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Common">
+      <HintPath>..\Common\Common\bin\Debug\netcoreapp2.1\Common.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

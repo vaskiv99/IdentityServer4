@@ -11,3 +11,7 @@ E:\samples\MyProject\backend\IS4\IS\IS\obj\Debug\netcoreapp2.1\IS.RazorTargetAss
 E:\samples\MyProject\backend\IS4\IS\IS\bin\Debug\netcoreapp2.1\IS.pdb
 E:\samples\MyProject\backend\IS4\IS\IS\obj\Debug\netcoreapp2.1\IS.dll
 E:\samples\MyProject\backend\IS4\IS\IS\obj\Debug\netcoreapp2.1\IS.pdb
+E:\samples\MyProject\backend\IS4\IS\IS\bin\Debug\netcoreapp2.1\Common.dll
+E:\samples\MyProject\backend\IS4\IS\IS\bin\Debug\netcoreapp2.1\Common.pdb
+E:\samples\MyProject\backend\IS4\IS\IS\obj\Debug\netcoreapp2.1\IS.csprojAssemblyReference.cache
+E:\samples\MyProject\backend\IS4\IS\IS\obj\Debug\netcoreapp2.1\IS.csproj.CopyComplete

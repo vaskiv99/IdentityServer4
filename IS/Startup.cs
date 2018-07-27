@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Common;
 using IdentityServer4;
 using IdentityServer4.Services;
 using IS.Data;
@@ -12,6 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using NLog;
 using Swashbuckle.AspNetCore.Swagger;
 
 namespace IS
@@ -21,6 +23,7 @@ namespace IS
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            LogManager.LoadConfiguration(ConfigLogger.ConnectionString);
         }
 
         public IConfiguration Configuration { get; }
@@ -98,6 +101,7 @@ namespace IS
                         options.AppSecret = "4aa87acdef15f0439e6ec9145e6cc9f3";
                         options.SaveTokens = true;
                     });
+            services.AddSingleton<ILoggerManager, LoggerManager>();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env,ILoggerFactory logger)
@@ -114,6 +118,7 @@ namespace IS
                 c.AllowAnyMethod();
                 c.AllowAnyOrigin();
             });
+            app.UseMiddleware<ExceptionMiddleware>();
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
