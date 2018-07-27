@@ -1,0 +1,13 @@
+E:\samples\MyProject\backend\IS4\IS\IS\bin\Debug\netcoreapp2.1\IS.deps.json
+E:\samples\MyProject\backend\IS4\IS\IS\bin\Debug\netcoreapp2.1\IS.runtimeconfig.json
+E:\samples\MyProject\backend\IS4\IS\IS\bin\Debug\netcoreapp2.1\IS.runtimeconfig.dev.json
+E:\samples\MyProject\backend\IS4\IS\IS\bin\Debug\netcoreapp2.1\IS.dll
+E:\samples\MyProject\backend\IS4\IS\IS\obj\Debug\netcoreapp2.1\IS.csproj.CoreCompileInputs.cache
+E:\samples\MyProject\backend\IS4\IS\IS\obj\Debug\netcoreapp2.1\IS.RazorAssemblyInfo.cache
+E:\samples\MyProject\backend\IS4\IS\IS\obj\Debug\netcoreapp2.1\IS.RazorAssemblyInfo.cs
+E:\samples\MyProject\backend\IS4\IS\IS\obj\Debug\netcoreapp2.1\IS.AssemblyInfoInputs.cache
+E:\samples\MyProject\backend\IS4\IS\IS\obj\Debug\netcoreapp2.1\IS.AssemblyInfo.cs
+E:\samples\MyProject\backend\IS4\IS\IS\obj\Debug\netcoreapp2.1\IS.RazorTargetAssemblyInfo.cache
+E:\samples\MyProject\backend\IS4\IS\IS\bin\Debug\netcoreapp2.1\IS.pdb
+E:\samples\MyProject\backend\IS4\IS\IS\obj\Debug\netcoreapp2.1\IS.dll
+E:\samples\MyProject\backend\IS4\IS\IS\obj\Debug\netcoreapp2.1\IS.pdb
